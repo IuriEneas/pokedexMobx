@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/features/auth/presentation/pages/detail/pokemon_detail_page.dart';
-import 'package:flutter_application_1/features/auth/presentation/pages/favorites/favorites_page.dart';
-import 'package:flutter_application_1/features/auth/presentation/stores/home_store.dart';
-import 'package:flutter_application_1/features/auth/presentation/widgets/lens_widget.dart';
-import 'package:flutter_application_1/features/auth/presentation/widgets/pokemon_tile.dart';
-import 'package:flutter_application_1/injection_container.dart';
+import 'package:pokedex_mobx/features/auth/presentation/pages/detail/pokemon_detail_page.dart';
+import 'package:pokedex_mobx/features/auth/presentation/pages/favorites/favorites_page.dart';
+import 'package:pokedex_mobx/features/auth/presentation/stores/home_store.dart';
+import 'package:pokedex_mobx/features/auth/presentation/widgets/lens_widget.dart';
+import 'package:pokedex_mobx/features/auth/presentation/widgets/pokemon_tile.dart';
+import 'package:pokedex_mobx/injection_container.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 

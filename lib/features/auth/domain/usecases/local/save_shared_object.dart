@@ -1,4 +1,4 @@
-import 'package:flutter_application_1/features/auth/domain/repository/pokemon_repository.dart';
+import 'package:pokedex_mobx/features/auth/domain/repository/pokemon_repository.dart';
 
 class SaveSharedObject {
   final PokemonRepository _repository;

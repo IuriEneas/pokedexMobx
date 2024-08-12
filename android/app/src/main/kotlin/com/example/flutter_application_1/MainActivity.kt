@@ -1,4 +1,4 @@
-package com.example.flutter_application_1
+package com.example.pokedex_mobx
 
 import android.os.BatteryManager
 import android.os.Build

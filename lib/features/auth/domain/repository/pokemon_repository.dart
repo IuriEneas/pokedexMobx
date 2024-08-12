@@ -1,6 +1,6 @@
-import 'package:flutter_application_1/core/resources/data_state.dart';
-import 'package:flutter_application_1/features/auth/domain/entities/pokemon.dart';
-import 'package:flutter_application_1/features/auth/domain/entities/result.dart';
+import 'package:pokedex_mobx/core/resources/data_state.dart';
+import 'package:pokedex_mobx/features/auth/domain/entities/pokemon.dart';
+import 'package:pokedex_mobx/features/auth/domain/entities/result.dart';
 
 abstract class PokemonRepository {
   Future<DataState<PokemonEntity>> getNewPokemon(String pokemon);

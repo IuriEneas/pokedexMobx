@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/core/util/string_util.dart';
-import 'package:flutter_application_1/core/util/util.dart';
-import 'package:flutter_application_1/features/auth/domain/entities/pokemon.dart';
-import 'package:flutter_application_1/features/auth/presentation/widgets/type_tile.dart';
+import 'package:pokedex_mobx/core/util/string_util.dart';
+import 'package:pokedex_mobx/core/util/util.dart';
+import 'package:pokedex_mobx/features/auth/domain/entities/pokemon.dart';
+import 'package:pokedex_mobx/features/auth/presentation/widgets/type_tile.dart';
 
 class PokemonDetailPage extends StatelessWidget {
   const PokemonDetailPage({

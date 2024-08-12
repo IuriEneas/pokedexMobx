@@ -1,4 +1,4 @@
-import 'package:flutter_application_1/features/auth/domain/entities/pokemon.dart';
+import 'package:pokedex_mobx/features/auth/domain/entities/pokemon.dart';
 
 class PokemonModel extends PokemonEntity {
   const PokemonModel({

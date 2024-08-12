@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_application_1/core/constants/constants.dart';
-import 'package:flutter_application_1/features/auth/data/models/pokemon.dart';
-import 'package:flutter_application_1/features/auth/data/models/result.dart';
+import 'package:pokedex_mobx/core/constants/constants.dart';
+import 'package:pokedex_mobx/features/auth/data/models/pokemon.dart';
+import 'package:pokedex_mobx/features/auth/data/models/result.dart';
 import 'package:retrofit/dio.dart';
 import 'package:retrofit/http.dart';
 

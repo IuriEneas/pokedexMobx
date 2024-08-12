@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_application_1/core/resources/data_state.dart';
-import 'package:flutter_application_1/features/auth/data/data_sources/remote/pokemon_api_service.dart';
-import 'package:flutter_application_1/features/auth/data/models/result.dart';
+import 'package:pokedex_mobx/core/resources/data_state.dart';
+import 'package:pokedex_mobx/features/auth/data/data_sources/remote/pokemon_api_service.dart';
+import 'package:pokedex_mobx/features/auth/data/models/result.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 class TestConnection {

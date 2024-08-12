@@ -1,8 +1,8 @@
-import 'package:flutter_application_1/core/constants/constants.dart';
-import 'package:flutter_application_1/features/auth/domain/entities/pokemon.dart';
-import 'package:flutter_application_1/features/auth/domain/usecases/local/delete_shared_object.dart';
-import 'package:flutter_application_1/features/auth/domain/usecases/local/save_shared_object.dart';
-import 'package:flutter_application_1/features/auth/presentation/stores/home_store.dart';
+import 'package:pokedex_mobx/core/constants/constants.dart';
+import 'package:pokedex_mobx/features/auth/domain/entities/pokemon.dart';
+import 'package:pokedex_mobx/features/auth/domain/usecases/local/delete_shared_object.dart';
+import 'package:pokedex_mobx/features/auth/domain/usecases/local/save_shared_object.dart';
+import 'package:pokedex_mobx/features/auth/presentation/stores/home_store.dart';
 import 'package:mobx/mobx.dart';
 part 'favorite_store.g.dart';
 

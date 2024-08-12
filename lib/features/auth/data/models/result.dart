@@ -1,4 +1,4 @@
-import 'package:flutter_application_1/features/auth/domain/entities/result.dart';
+import 'package:pokedex_mobx/features/auth/domain/entities/result.dart';
 
 class ResultModel extends ResultEntity {
   const ResultModel({

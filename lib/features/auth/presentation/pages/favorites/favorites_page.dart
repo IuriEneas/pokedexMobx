@@ -1,8 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/features/auth/presentation/pages/detail/pokemon_detail_page.dart';
-import 'package:flutter_application_1/features/auth/presentation/stores/favorite_store.dart';
-import 'package:flutter_application_1/injection_container.dart';
+import 'package:pokedex_mobx/features/auth/presentation/pages/detail/pokemon_detail_page.dart';
+import 'package:pokedex_mobx/features/auth/presentation/stores/favorite_store.dart';
+import 'package:pokedex_mobx/injection_container.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 class FavoritesPage extends StatelessWidget {

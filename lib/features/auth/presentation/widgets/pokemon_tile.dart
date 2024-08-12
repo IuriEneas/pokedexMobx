@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/core/util/string_util.dart';
-import 'package:flutter_application_1/features/auth/domain/entities/pokemon.dart';
+import 'package:pokedex_mobx/core/util/string_util.dart';
+import 'package:pokedex_mobx/features/auth/domain/entities/pokemon.dart';
 
 class PokemonTile extends StatefulWidget {
   const PokemonTile({

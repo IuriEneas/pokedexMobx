@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/features/auth/domain/entities/pokemon.dart';
+import 'package:pokedex_mobx/features/auth/domain/entities/pokemon.dart';
 
 abstract class Util {
   static Color getPokemonTypeColor(VersionClassEntity? type) {

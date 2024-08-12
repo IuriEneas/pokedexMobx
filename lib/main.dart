@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_application_1/config/theme/app_theme.dart';
-import 'package:flutter_application_1/features/auth/presentation/pages/home/home_page.dart';
-import 'package:flutter_application_1/injection_container.dart';
+import 'package:pokedex_mobx/config/theme/app_theme.dart';
+import 'package:pokedex_mobx/features/auth/presentation/pages/home/home_page.dart';
+import 'package:pokedex_mobx/injection_container.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
