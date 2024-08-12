@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'flutter',
+      title: 'Pokedex',
       debugShowCheckedModeBanner: false,
       theme: theme(),
       home: HomePage(),
