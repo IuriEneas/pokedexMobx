@@ -19,8 +19,6 @@ A ideia por trás deste projeto é criar uma pokedex informativa que possa ser u
 
 - **Dart Flutter**
 - Pacotes utilizados:
-  - `cupertino_icons: ^1.0.6`
-  - `http: ^1.2.2`
   - `retrofit: ^4.1.0`
   - `intl: ^0.19.0`
   - `get_it: ^7.7.0`
