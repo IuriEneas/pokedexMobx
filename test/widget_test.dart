@@ -9,8 +9,8 @@ import 'dart:convert';
 
 import 'package:flutter/widgets.dart';
 import 'package:pokedex_mobx/core/constants/constants.dart';
-import 'package:pokedex_mobx/features/auth/data/models/result.dart';
-import 'package:pokedex_mobx/features/auth/domain/entities/result.dart';
+import 'package:pokedex_mobx/features/data/models/result.dart';
+import 'package:pokedex_mobx/features/domain/entities/result.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:shared_preferences/shared_preferences.dart';

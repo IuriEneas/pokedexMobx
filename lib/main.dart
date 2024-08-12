@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:pokedex_mobx/config/theme/app_theme.dart';
-import 'package:pokedex_mobx/features/auth/presentation/pages/home/home_page.dart';
+import 'package:pokedex_mobx/features/presentation/pages/home/home_page.dart';
 import 'package:pokedex_mobx/injection_container.dart';
 
 Future<void> main() async {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Pokedex',
+      title: 'flutter',
       debugShowCheckedModeBanner: false,
       theme: theme(),
       home: HomePage(),
