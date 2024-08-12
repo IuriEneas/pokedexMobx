@@ -2,7 +2,9 @@
 
 Este projeto visa implementar a REST API [https://pokeapi.co/](https://pokeapi.co/)
 
-## Getting Started
+## Começando
+
+Para rodar o projeto, é necessário rodar o comando `pub_get` para todas as dependencias serem atualizadas.
 
 This project is a starting point for a Flutter application.
 
