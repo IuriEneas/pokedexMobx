@@ -1,7 +1,5 @@
 import 'package:flutter_application_1/features/auth/domain/entities/pokemon.dart';
-import 'package:floor/floor.dart';
 
-@Entity(tableName: 'pokemon', primaryKeys: ['id'])
 class PokemonModel extends PokemonEntity {
   const PokemonModel({
     required super.abilities,
@@ -192,7 +190,6 @@ class StatModel extends StatEntity {
   }
 }
 
-@Entity(tableName: 'type', primaryKeys: [''])
 class TypeModel extends TypeEntity {
   const TypeModel({
     required super.slot,
