@@ -1,18 +1,54 @@
-# Pokedex com clean architecture e MobX
+# Pokedex-Mobx
 
-Este projeto visa implementar a REST API [https://pokeapi.co/](https://pokeapi.co/)
+## Descrição
 
-## Começando
+Este projeto visa implementar a REST API pokedex, permitindo a exibição e interação com informações de Pokémons. A Pokedex-Mobx é uma aplicação informativa que não possui qualquer vínculo com a marca POKEMON.
 
-Para rodar o projeto, é necessário rodar o comando `pub_get` para todas as dependencias serem atualizadas.
+## Motivação
 
-This project is a starting point for a Flutter application.
+A ideia por trás deste projeto é criar uma pokedex informativa que possa ser usada por fãs para visualizar dados de Pokémons, sem qualquer afiliação ou intenção comercial relacionada à marca POKEMON.
 
-A few resources to get you started if this is your first Flutter project:
+## Recursos Principais
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Resgatar Dados**: A aplicação consome a API REST da Pokedex para exibir dados dos Pokémons.
+- **Mostrar na Tela**: As informações dos Pokémons são exibidas em uma interface intuitiva.
+- **Exibir Nível de Bateria**: Ao tocar na lente da pokedex, o nível de bateria do dispositivo é exibido.
+- **Salvar Pokémon Favorito**: Ao clicar no ícone de um Pokémon, ele é salvo como favorito. A tela de favoritos pode ser acessada no canto superior direito.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tecnologias Utilizadas
+
+- **Dart Flutter**
+- Pacotes utilizados:
+  - `cupertino_icons: ^1.0.6`
+  - `http: ^1.2.2`
+  - `retrofit: ^4.1.0`
+  - `intl: ^0.19.0`
+  - `get_it: ^7.7.0`
+  - `dio: ^5.5.0+1`
+  - `equatable: ^2.0.5`
+  - `mobx: ^2.3.3+2`
+  - `flutter_mobx: ^2.2.1+1`
+  - `shared_preferences: ^2.3.1`
+  - `carousel_slider: ^5.0.0`
+  - `fluttertoast: ^8.2.5`
+
+## Instalação
+
+Para rodar o projeto, siga os passos abaixo:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/pokedex-mobx.git
+
+2. Navegue até o diretório do projeto:cd pokedex-mobx
+   ```bash
+   cd pokedex-mobx
+
+4. Instale as dependências:
+   ```bash
+   flutter pub get
+
+5. Gere o código necessário para desenvolvimento e testes:
+   ```bash
+   flutter pub run build_runner watch
+
