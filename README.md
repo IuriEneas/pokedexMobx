@@ -6,7 +6,7 @@ Este projeto visa implementar a REST API pokedex, permitindo a exibição e inte
 
 ## Motivação
 
-A ideia por trás deste projeto é criar uma pokedex informativa que possa ser usada por fãs para visualizar dados de Pokémons, sem qualquer afiliação ou intenção comercial relacionada à marca POKEMON.
+A ideia por trás deste projeto é criar uma pokedex informativa que possa ser usada por fãs para visualizar e salvar dados de Pokémons.
 
 ## Recursos Principais
 
