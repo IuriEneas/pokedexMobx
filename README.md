@@ -1,6 +1,6 @@
-# flutter_application_1
+# Pokedex com clean architecture e MobX
 
-A new Flutter project.
+Este projeto visa implementar a REST API [https://pokeapi.co/](https://pokeapi.co/)
 
 ## Getting Started
 
