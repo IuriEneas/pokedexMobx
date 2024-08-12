@@ -36,9 +36,9 @@ Para rodar o projeto, siga os passos abaixo:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/pokedex-mobx.git
+   git clone https://github.com/seu-usuario/pokedexMobx.git
 
-2. Navegue até o diretório do projeto:cd pokedex-mobx
+2. Navegue até o diretório do projeto:cd pokedexMobx
    ```bash
    cd pokedex-mobx
 
