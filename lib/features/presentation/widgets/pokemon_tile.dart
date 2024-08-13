@@ -43,6 +43,9 @@ class _PokemonTileState extends State<PokemonTile>
       }
     });
 
+    final officialImage =
+        widget.pokemon.sprites?.other?.officialArtwork?.frontDefault;
+
     return Card(
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(15),
@@ -64,11 +67,9 @@ class _PokemonTileState extends State<PokemonTile>
                     tag: widget.pokemon.id.toString(),
                     child: Image(
                       fit: BoxFit.fill,
-                      image: NetworkImage(
-                        widget.pokemon.sprites?.other?.officialArtwork
-                                ?.frontDefault ??
-                            '',
-                      ),
+                      image: officialImage == null
+                          ? const AssetImage('assets/ditto.png')
+                          : NetworkImage(officialImage),
                       height: 60,
                     ),
                   ),

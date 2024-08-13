@@ -18,7 +18,7 @@ abstract class StringUtil {
     formattedName = formattedName[0].toUpperCase() +
         formattedName.substring(1).toLowerCase();
 
-    String truncatedText = formattedName.length > 12
+    String truncatedText = formattedName.length > 11
         ? '${formattedName.substring(0, 9)}...'
         : formattedName;
 

@@ -150,6 +150,8 @@ class PokemonDetailPage extends StatelessWidget {
   }
 
   _pokemonImage(Color primary, Color secondary, double radius, Size size) {
+    final officialImage = pokemon.sprites!.other?.officialArtwork?.frontDefault;
+
     return Stack(
       children: [
         Container(
@@ -182,9 +184,9 @@ class PokemonDetailPage extends StatelessWidget {
             child: Image(
               width: !isSmall ? size.width * 0.5 : size.width * 0.4,
               alignment: Alignment.centerRight,
-              image: NetworkImage(
-                pokemon.sprites!.other?.officialArtwork?.frontDefault ?? '',
-              ),
+              image: officialImage == null
+                  ? const AssetImage('assets/ditto.png')
+                  : NetworkImage(officialImage),
             ),
           ),
         ),

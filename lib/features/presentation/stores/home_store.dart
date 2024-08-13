@@ -237,12 +237,10 @@ abstract class _HomeStore with Store {
       canAddPokemon = true;
     }
 
-    for (var item in favoritePokemonList) {
-      if (item.id != pokemon.id) {
-        canAddPokemon = true;
-      } else {
-        canAddPokemon = false;
-      }
+    if (!favoritePokemonList.contains(pokemon)) {
+      canAddPokemon = true;
+    } else {
+      canAddPokemon = false;
     }
   }
 
